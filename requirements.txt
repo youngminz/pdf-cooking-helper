@@ -1,4 +1,4 @@
-pyqt5
-PyPDF2
-reportlab
-wand
+PyQt5==5.14.1
+PyPDF2==1.26.0
+reportlab==3.5.32
+Wand==0.5.8
