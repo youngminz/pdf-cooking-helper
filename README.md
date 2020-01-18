@@ -10,6 +10,7 @@ PDF 파일의 좌표를 구하는 작업을 도와주는 도구입니다.
 
 ## 실행 및 사용 방법
 
+### PDF 좌표를 구하기
 ```sh
 $ cd src
 $ python3 main_ui.py
@@ -18,6 +19,16 @@ $ python3 main_ui.py
 ![사진](screenshot.png)
 
 원하는 곳에 마우스를 클릭하면 좌측 하단에 좌표가 출력됩니다.
+
+### 템플릿 PDF 파일에 파라미터 구워서 PDF로 만들기
+
+[소스 코드](src/main_convertor.py)를 참고하세요.
+외부 프로젝트에서 사용하려면, `pdf_core_utils.py` 파일을 복사하고 `main_convertor.py` 파일을 참고하여 사용하면 됩니다.
+
+```sh
+$ cd src
+$ python3 main_convertor.py
+```
 
 ## Use Case
 
