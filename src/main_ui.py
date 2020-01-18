@@ -20,7 +20,7 @@ status_bar = None
 class Form(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         QtWidgets.QMainWindow.__init__(self, parent)
-        self.ui = uic.loadUi("MainWindow.ui", self)
+        self.ui = uic.loadUi("resource/ui/MainWindow.ui", self)
         self.ui.show()
 
         options = QFileDialog.Options()
