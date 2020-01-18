@@ -3,16 +3,10 @@ from functools import lru_cache
 from io import BytesIO
 
 from PIL import Image
-from PyPDF2 import (
-    PdfFileReader,
-    PdfFileWriter,
-)
+from PyPDF2 import PdfFileReader, PdfFileWriter
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
-from reportlab.lib.utils import (
-    ImageReader,
-    simpleSplit,
-)
+from reportlab.lib.utils import ImageReader, simpleSplit
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.pdfmetrics import getAscentDescent
 from reportlab.pdfbase.ttfonts import TTFont
