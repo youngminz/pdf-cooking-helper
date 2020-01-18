@@ -3,10 +3,9 @@ PDF 템플릿을 생성할 때 좌표 구하는 작업을 도와주는 도구입
 
 # 설치 방법
 
-1. Python 3.5 이상에서 작동합니다.
-2. `brew install ghostscript`
-3. `pip install -r requirements`
-4. KoPub 등 사용할 폰트들을 다운로드 받아 이 폴더에 넣습니다.
+1. 작업 환경은 Python 3.7에서 작업하였습니다.
+2. PDF 파일을 이미지 파일로 변환하는 과정에서 GhostScript 의존성이 필요합니다. Mac이라면 `brew install ghostscript`를 이용하여 설치해 줍니다.
+3. Python 의존성을 설치해 줍니다. `pip3 install -r requirements.txt` 명령어로 할 수 있습니다.
 
 # 사용 방법
 
