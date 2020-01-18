@@ -24,13 +24,12 @@ class Form(QtWidgets.QMainWindow):
         self.ui.show()
 
         options = QFileDialog.Options()
-        filename = 'example/withholding_report_template.pdf'
 
         global size, size_mm
         metadata = json.loads(open('example/metadata.json', 'r').read())
 
         # metadata.json에 정의되어 있는 "name" 에 대응되는 값들을 PDF 생성 파라미터로 넣는다.
-        param2 = {
+        parameter = {
             # 글자는 이렇게 넣으면 된다.
             "corporate_name": "주식회사 피플펀드컴퍼니",
             "ceo_name": "김대윤",
@@ -63,7 +62,8 @@ class Form(QtWidgets.QMainWindow):
             "check": open("resource/image/icon_check_blue.png", "rb")
         }
 
-        pages = generate_pdf_pages(filename, metadata, param2)
+        filename = 'example/withholding_report_template.pdf'
+        pages = generate_pdf_pages(filename, metadata, parameter)
         merged = merge_pages(pages)
 
         memory = BytesIO()
