@@ -1,0 +1,381 @@
+[
+    [
+        {
+            "name": "check",
+            "description": "이자 배당소득 원천징수영수증 체크",
+            "type": "image",
+            "position": [
+                43.98,
+                258
+            ],
+            "size": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "check",
+            "description": "소득자 보관용 체크",
+            "type": "image",
+            "position": [
+                130.5,
+                260.5
+            ],
+            "size": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "corporate_name",
+            "description": "1. 법인명(상호)",
+            "type": "text",
+            "position": [
+                26.5,
+                226.7
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "ceo_name",
+            "description": "2. 대표자(성명)",
+            "type": "text",
+            "position": [
+                128,
+                226.7
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "company_registration_number",
+            "description": "3. 사업자등록번호",
+            "type": "text",
+            "position": [
+                167,
+                226.7
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "address",
+            "description": "5. 소재지 또는 주소",
+            "type": "text",
+            "position": [
+                76.5,
+                215
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "name",
+            "description": "6. 성명(상호)",
+            "type": "text",
+            "position": [
+                26.5,
+                202
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "identification_number",
+            "description": "7. 주민(사업자)등록번호",
+            "type": "text",
+            "position": [
+                76.5,
+                202
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "earner_type",
+            "description": "8. 소득자구분코드",
+            "type": "text",
+            "position": [
+                167,
+                202
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "check",
+            "description": "10. 거주구분 - 거주자",
+            "type": "image",
+            "position": [
+                114,
+                187.4
+            ],
+            "size": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "check",
+            "description": "13. 신탁이익여부 - 부",
+            "type": "image",
+            "position": [
+                190.2,
+                187.4
+            ],
+            "size": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "repayment_date_yyyy",
+            "description": "14. 지급일 - 연",
+            "type": "text",
+            "position": [
+                15.41,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "repayment_date_mm",
+            "description": "14. 지급일 - 월",
+            "type": "text",
+            "position": [
+                21.25,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "repayment_date_dd",
+            "description": "14. 지급일 - 일",
+            "type": "text",
+            "position": [
+                25.57,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "repayment_date_yyyy",
+            "description": "15. 귀속연월 - 연",
+            "type": "text",
+            "position": [
+                30.65,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "repayment_date_mm",
+            "description": "15. 귀속연월 - 월",
+            "type": "text",
+            "position": [
+                36.41,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "tax_type",
+            "description": "16. 과세구분",
+            "type": "text",
+            "position": [
+                42.84,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "income_type",
+            "description": "17. 소득의종류",
+            "type": "text",
+            "position": [
+                50.55,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "special_taxation",
+            "description": "18. 조세특례등",
+            "type": "text",
+            "position": [
+                58,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "interest_calc_date",
+            "description": "22. 지급대상기간",
+            "type": "text",
+            "position": [
+                96,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 5,
+            "align": "middle"
+        },
+        {
+            "name": "interest_rate",
+            "description": "23. 이자율등",
+            "type": "text",
+            "position": [
+                106.01,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "amount",
+            "description": "24. 지급액(소득금액)",
+            "type": "text",
+            "position": [
+                131.18,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "right"
+        },
+        {
+            "name": "tax_rate",
+            "description": "25. 세율(%)",
+            "type": "text",
+            "position": [
+                135.14,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "middle"
+        },
+        {
+            "name": "income_tax",
+            "description": "26. 소득세",
+            "type": "text",
+            "position": [
+                150.66,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "right"
+        },
+        {
+            "name": "corporate_tax",
+            "description": "27. 법인세",
+            "type": "text",
+            "position": [
+                164.12,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "right"
+        },
+        {
+            "name": "resident_tax",
+            "description": "28. 지방소득세",
+            "type": "text",
+            "position": [
+                174.36,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "right"
+        },
+        {
+            "name": "total",
+            "description": "30. 계",
+            "type": "text",
+            "position": [
+                195.19,
+                149.45
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 7,
+            "align": "right"
+        },
+        {
+            "name": "today_yyyy",
+            "description": "오늘 연",
+            "type": "text",
+            "position": [
+                157.33,
+                68.4
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "today_mm",
+            "description": "오늘 월",
+            "type": "text",
+            "position": [
+                173.33,
+                68.4
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "today_dd",
+            "description": "오늘 일",
+            "type": "text",
+            "position": [
+                184,
+                68.4
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "corporate_name",
+            "description": "징수(보고)의무자 <회사이름>",
+            "type": "text",
+            "position": [
+                113,
+                60
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11
+        },
+        {
+            "name": "name",
+            "description": "<이름> 귀하",
+            "type": "text",
+            "position": [
+                61,
+                50.5
+            ],
+            "font": "DEFAULT_BOLD",
+            "size": 11,
+            "align": "right"
+        }
+    ]
+]
