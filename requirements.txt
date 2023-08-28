@@ -1,4 +1,4 @@
 PyQt5==5.14.1
 -e git+https://github.com/youngminz/PyPDF2.git#egg=PyPDF2
-reportlab==3.5.32
+reportlab==3.6.13
 Wand==0.5.8
